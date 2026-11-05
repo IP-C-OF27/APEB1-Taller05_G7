@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Ejercicio02_DíaSemana {
     public static void main(String[] args) {
         Scanner tcl = new Scanner(System.in);
-        System.out.print("Deme numero del día(1-7):");
+        System.out.print("Deme numero del día(1-7): ");
         int dia = tcl.nextInt();
         String mensajeDia;
         switch (dia) 
@@ -38,13 +38,15 @@ public class Ejercicio02_DíaSemana {
                 break;
             default:
                 mensajeDia="error";
-                throw new AssertionError();
         }
-        System.out.println("El numero:"+ dia +"Corresponde a: "+ mensajeDia);     
+        System.out.println("El numero: "+ dia + " Corresponde a: "+ mensajeDia);     
         }
         
     }
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+ * run:
+Deme numero del d�a(1-7): 5
+El numero: 5 Corresponde a: Viernes
+BUILD SUCCESSFUL (total time: 7 seconds)
  */
