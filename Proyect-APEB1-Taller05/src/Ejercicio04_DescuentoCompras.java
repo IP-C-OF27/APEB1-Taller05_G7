@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 /**
  * Ejercicio 01: "Descuento en Compras: Calcular el precio final de un producto 
@@ -7,27 +6,21 @@ import java.util.Scanner;
  * @author Kenny Gualán, Tamara Fernández
  * @version 1.0
  */
-
 public class Ejercicio04_DescuentoCompras {
     public static void main(String[] args) {
-        double precioproducto,preciofinal,factura;
+        double precioProducto;
         Scanner tcl = new Scanner(System.in);
         System.out.println("Deme precio: ");
-        precioproducto=tcl.nextDouble();
-        factura=precioproducto;
-        if(precioproducto > 100);
-        factura= precioproducto *(precioproducto -10/100);
-        System.out.println("");
-        
-        
-        
-        
-        
-                
+        precioProducto=tcl.nextDouble();
+        if(precioProducto > 100);
+        precioProducto *= 0.9;
+        System.out.println("El precio total es: "+ precioProducto);               
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
- * Pegue aquí la evidencia de la ejecución del .java
+Deme precio: 
+250
+El precio total es: 225.0
+BUILD SUCCESSFUL (total time: 4 seconds)
  */
