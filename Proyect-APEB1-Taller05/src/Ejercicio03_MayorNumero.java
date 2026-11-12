@@ -25,6 +25,7 @@ public class Ejercicio03_MayorNumero {
 /***
  * EVIDENCIA DEL RUN:
  * run:
-Escribe 3 numeros: 2 3 1
+Escribe 3 numeros: 1 3 2
 Mayor: 3
-
+BUILD SUCCESSFUL (total time: 5 seconds)
+ */
