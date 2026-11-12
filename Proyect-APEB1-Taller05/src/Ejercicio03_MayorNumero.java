@@ -27,5 +27,4 @@ public class Ejercicio03_MayorNumero {
  * run:
 Escribe 3 numeros: 2 3 1
 Mayor: 3
-BUILD SUCCESSFUL (total time: 6 seconds)
- */ 
+
