@@ -41,7 +41,6 @@ public class Ejercicio02_DíaSemana {
         }
         System.out.println("El numero: "+ dia + " Corresponde a: "+ mensajeDia);     
         }
-        
     }
 /***
  * EVIDENCIA DEL RUN:
