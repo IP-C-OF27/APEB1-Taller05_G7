@@ -27,14 +27,7 @@ public class Ejercicio03_MayorNumero {
 /***
  * EVIDENCIA DEL RUN:
  * run:
-<<<<<<< HEAD
-Deme edad: 15
-No legible para votar.
-BUILD SUCCESSFUL (total time: 3 seconds)
- */ 
-=======
 Escribe 3 numeros: 2 3 1
 Mayor: 3
-BUILD SUCCESSFUL (total time: 6 seconds)
- */
->>>>>>> b74c223267bb630fc56c715c466bc49979674634
+BUILD SUCCESSFUL (total time: 5 seconds)
+*/
