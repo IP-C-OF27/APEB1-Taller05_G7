@@ -16,11 +16,9 @@ public class Ejercicio06_CategoríaEdad {
         if (edad < 18)
             System.out.println("Categoría adolescente");
         else 
-            System.out.println("Categoria adulta");
-           
+            System.out.println("Categoria adulta");      
     }
 }
-
 /***
  * EVIDENCIA DEL RUN:
  * Deme su edad: 
