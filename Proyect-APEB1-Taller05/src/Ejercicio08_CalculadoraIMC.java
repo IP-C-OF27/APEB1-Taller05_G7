@@ -33,10 +33,10 @@ public class Ejercicio08_CalculadoraIMC
 }
 /***
  * EVIDENCIA DEL RUN:
-Ingrese su peso: 
+Ingrese su peso en kg: 
 50
-Ingrese su estatura
+Ingrese su estatura en metros: 
 1,54
 Clasificaci�n: Peso normal
-BUILD SUCCESSFUL (total time: 13 seconds)
+BUILD SUCCESSFUL (total time: 15 seconds)
  */
