@@ -12,9 +12,9 @@ public class Ejercicio08_CalculadoraIMC
     {
         double IMC,peso,estatura;
         Scanner tcl = new Scanner(System.in);
-        System.out.println("Ingrese su peso: ");
+        System.out.println("Ingrese su peso en kg: ");
         peso= tcl.nextDouble();
-        System.out.println("Ingrese su estatura");
+        System.out.println("Ingrese su estatura en metros: ");
         estatura= tcl.nextDouble();
         IMC = peso / (estatura*estatura);
         if (IMC < 18.5){
